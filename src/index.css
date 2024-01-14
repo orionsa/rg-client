@@ -11,8 +11,12 @@
     @tailwind variants;
 }
 
-@layer components {
+@layer utilities {
   .hover {
     @apply transition ease-in-out duration-150 hover:cursor-pointer;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center
   }
 }
